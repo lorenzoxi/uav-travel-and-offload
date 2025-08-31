@@ -2,8 +2,8 @@
 
 Official code for the paper:  
 **The Travel-and-Offload Problem for Energy-Efficient UAV-Assisted LoRaWAN Data Collection**  
-Authors: Perinello Lorenzo, Lugigi De Giovanni, Claudio E. Palazzi
-Submitted at: *IEEE Consumer Communications & Networking Conference 2026*
+- Authors: Perinello Lorenzo, Luigi De Giovanni, Claudio E. Palazzi
+- Submitted at: *IEEE Consumer Communications & Networking Conference 2026*
 
 ## Abstract
 > With the increasing adoption of Unmanned Aerial Vehicles (UAVs) and their technological advancements, particularly in terms of autonomy and computational capabilities, their role as active component in wireless networks could be groundbreaking. Such potential is especially relevant in constrained environments that lack proper telecommunication infrastructure or adequate network coverage. These contexts are where the Internet of Things (IoT) has emerged as a vital technology, capable of facilitating sensing operations and data retrieval by leveraging communication protocols like LoRa for long-range, low-energy transmissions. 
