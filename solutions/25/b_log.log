@@ -1,0 +1,77 @@
+
+Gurobi 11.0.2 (mac64[arm]) logging started Thu Jul 24 10:07:54 2025
+
+Set parameter LogFile to value "../solutions/25/b_log.log"
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (mac64[arm] - Darwin 24.5.0 24F74)
+
+CPU model: Apple M2 Pro
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 25830 rows, 15053 columns and 80777 nonzeros
+Model fingerprint: 0xbf92c9dd
+Variable types: 4378 continuous, 10675 integer (10025 binary)
+Coefficient statistics:
+  Matrix range     [1e-03, 1e+06]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 5e+01]
+  RHS range        [1e+00, 6e+05]
+Presolve removed 12304 rows and 1753 columns
+Presolve time: 0.19s
+Presolved: 13526 rows, 13300 columns, 117397 nonzeros
+Variable types: 3850 continuous, 9450 integer (8849 binary)
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing primal log only...
+
+Concurrent spin time: 0.02s
+
+Solved with dual simplex
+Extra simplex iterations after uncrush: 440
+
+Root relaxation: objective 2.360852e+03, 1813 iterations, 0.14 seconds (0.29 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 2360.85182    0  210          - 2360.85182      -     -    0s
+H    0     0                    71477.149070 2360.85182  96.7%     -    0s
+     0     0 28117.4875    0  273 71477.1491 28117.4875  60.7%     -    0s
+     0     0 34850.8834    0  323 71477.1491 34850.8834  51.2%     -    1s
+H    0     0                    71477.147493 36060.7992  49.5%     -    1s
+     0     0 38929.4601    0  269 71477.1475 38929.4601  45.5%     -    1s
+     0     0 55200.6803    0  259 71477.1475 55200.6803  22.8%     -    1s
+H    0     0                    71477.134874 55200.6803  22.8%     -    1s
+H    0     0                    70922.739187 55200.6803  22.2%     -    1s
+H    0     0                    70746.739472 69169.7852  2.23%     -    1s
+     0     0 69358.9412    0  207 70746.7395 69358.9412  1.96%     -    1s
+     0     0 69358.9412    0  431 70746.7395 69358.9412  1.96%     -    1s
+     0     0 70486.3492    0  360 70746.7395 70486.3492  0.37%     -    1s
+     0     0 70486.3492    0  373 70746.7395 70486.3492  0.37%     -    1s
+H    0     0                    70746.737894 70515.6825  0.33%     -    2s
+     0     0 70515.6825    0  388 70746.7379 70515.6825  0.33%     -    2s
+H    0     0                    70746.731585 70548.2444  0.28%     -    2s
+H    0     0                    70746.730007 70548.2444  0.28%     -    2s
+     0     0 70548.2444    0  293 70746.7300 70548.2444  0.28%     -    2s
+     0     0 70603.6825    0  294 70746.7300 70603.6825  0.20%     -    2s
+H    0     0                    70746.728430 70603.6857  0.20%     -    2s
+
+Cutting planes:
+  Gomory: 19
+  Cover: 16
+  Implied bound: 519
+  MIR: 33
+  StrongCG: 1
+  Flow cover: 25
+  GUB cover: 23
+  Zero half: 20
+  Mod-K: 38
+  RLT: 4
+  Relax-and-lift: 89
+
+Explored 1 nodes (18847 simplex iterations) in 2.21 seconds (4.38 work units)
+Thread count was 10 (of 10 available processors)
+
+Solution count 9: 70746.7 70746.7 70746.7 ... 71477.1
+
+Optimal solution found (tolerance 1.00e-03)
+Best objective 7.074672843003e+04, best bound 7.074664314677e+04, gap 0.0001%
+Warning: linear constraint 10826 and linear constraint 10829 have the same name "lin1_pw_d_0_"

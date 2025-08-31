@@ -1,0 +1,15 @@
+{
+  "SolutionInfo": {
+    "Status": 9,
+    "Runtime": 7.2010481090545654e+03,
+    "Work": 2.6259633654779434e+04,
+    "ObjVal": 1e+100,
+    "ObjBound": 1.9226661452486241e+05,
+    "ObjBoundC": 1.9226661452486241e+05,
+    "MIPGap": 1e+100,
+    "IterCount": 11765441,
+    "BarIterCount": 37,
+    "NodeCount": 3679,
+    "SolCount": 0
+  }
+}
