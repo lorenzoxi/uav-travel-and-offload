@@ -22,3 +22,5 @@ Please see `CMakeLists.txt` file for the required  C++ standard (17), compiler u
 ├── instances/            # Instances used for the paper experiments
 └── results/              # Results of the experiments
 ```
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
