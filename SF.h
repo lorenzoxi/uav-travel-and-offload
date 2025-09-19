@@ -31,4 +31,8 @@ static const std::vector<SpreadingFactor> SF500 = {
         {12, 500.0, 1.171,  6, 10}
 };
 
+<<<<<<< HEAD
 #endif 
+=======
+#endif //INC_005_CCNC_DRONE_ENERGY_OPT_SF_H
+>>>>>>> 72fca9b (init)

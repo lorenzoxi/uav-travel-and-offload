@@ -38,4 +38,8 @@ inline void to_json(nlohmann::json &j, const Point &p) {
 }
 
 
+<<<<<<< HEAD
 #endif
+=======
+#endif //INC_005_CCNC_DRONE_ENERGY_OPT_POINT_H
+>>>>>>> 72fca9b (init)

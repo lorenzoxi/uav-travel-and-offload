@@ -1,5 +1,9 @@
 cmake_minimum_required(VERSION 3.27)
+<<<<<<< HEAD
 project(2025-ccnc-drone)
+=======
+project(2025-journal-drone)
+>>>>>>> 72fca9b (init)
 
 set(CMAKE_CXX_STANDARD 17)
 
@@ -23,8 +27,18 @@ link_directories(${GUROBI_HOME}/lib)
 find_package(CGAL REQUIRED)
 
 
+<<<<<<< HEAD
 add_executable(2025-ccnc-drone
         include/json.hpp
         main.cpp
 )
 target_link_libraries(2025-ccnc-drone ilocplex concert cplex m pthread gurobi_c++ gurobi110 CGAL::CGAL)
+=======
+add_executable(2025-journal-drone
+        include/json.hpp
+        main.cpp
+        generate_roi_grid.h
+        PW.h
+)
+target_link_libraries(2025-journal-drone ilocplex concert cplex pthread gurobi_c++ gurobi110 CGAL::CGAL)
+>>>>>>> 72fca9b (init)

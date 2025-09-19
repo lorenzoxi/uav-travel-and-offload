@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # The Travel-and-Offload Problem for Energy-Efficient UAV-Assisted LoRaWAN Data Collection
 
 Official code for the paper:  
@@ -24,3 +25,6 @@ Please see `CMakeLists.txt` file for the required  C++ standard (17), compiler u
 ```
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+=======
+# uav-path-and-offload
+>>>>>>> 72fca9b (init)

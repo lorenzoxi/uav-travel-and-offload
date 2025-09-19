@@ -83,4 +83,8 @@ neighborhood(const std::vector<Point> &points, const Sensor &p, double radius_mi
     return neighbors;
 }
 
+<<<<<<< HEAD
 #endif 
+=======
+#endif //INC_005_CCNC_DRONE_ENERGY_OPT_NEIGHBORHOOD_H
+>>>>>>> 72fca9b (init)

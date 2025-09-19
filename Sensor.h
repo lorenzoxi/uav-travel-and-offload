@@ -34,4 +34,8 @@ inline void to_json(nlohmann::json &j, const Sensor &s) {
     };
 }
 
+<<<<<<< HEAD
 #endif
+=======
+#endif //INC_005_CCNC_DRONE_ENERGY_OPT_SENSOR_H
+>>>>>>> 72fca9b (init)

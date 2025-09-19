@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 .DS_Store
 
+=======
+>>>>>>> 72fca9b (init)
 # Prerequisites
 *.d
 
@@ -41,3 +44,6 @@
 
 # debug information files
 *.dwo
+cmake-build-*/
+
+solutions

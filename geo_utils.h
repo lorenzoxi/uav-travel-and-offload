@@ -130,5 +130,23 @@ distance(const double &lat1, const double &lon1, const double &alt1,
     return total_distance > 0 ? total_distance : 0.1; // Ensure small non-zero return
 }
 
+<<<<<<< HEAD
+=======
+inline double euc_distance(const Point &p1, const Point &p2) {
+    double dx = p2.lat - p1.lat;
+    double dy = p2.lon - p1.lon;
+    double dz = p2.z - p1.z;
+    return sqrt(dx * dx + dy * dy + dz * dz);
+}
+
+
+inline double euc_distance(const Sensor &s1, const Point &s2) {
+    double dx = s2.lat - s1.lat;
+    double dy = s2.lon - s1.lon;
+    double dz = s2.z - s1.z;
+    return sqrt(dx * dx + dy * dy + dz * dz);
+}
+
+>>>>>>> 72fca9b (init)
 
 #endif //INC_005_CCNC_DRONE_ENERGY_OPT_GEO_UTILS_H

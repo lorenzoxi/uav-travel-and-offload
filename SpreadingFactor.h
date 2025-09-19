@@ -12,4 +12,8 @@ struct SpreadingFactor {
             : _id(id), bandwidth(bw), Kbps(Kbps), range_min(r_min), range_max(r_max) {}
 };
 
+<<<<<<< HEAD
 #endif
+=======
+#endif //INC_005_CCNC_DRONE_ENERGY_OPT_SPREADINGFACTOR_H
+>>>>>>> 72fca9b (init)

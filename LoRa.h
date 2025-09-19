@@ -16,10 +16,17 @@ double get_time_on_air(const unsigned int &payload_bytes, const unsigned int &sp
 
     double bw = bandwidth; // in Hz
     double sf = spreading_factor;
+<<<<<<< HEAD
     double cr = coding_rate + 4; // coding rate denominator (e.g., 1 -> 4/5)
     bool crc = crc_on;
     bool ih = !header_enabled;
     bool de = (sf >= 11);
+=======
+    double cr = coding_rate + 4; // coding rate denominator
+    bool crc = crc_on;
+    bool ih = !header_enabled;
+    bool de = (sf >= 11); // enable low data rate optimization if SF >= 11
+>>>>>>> 72fca9b (init)
 
     double tsym = std::pow(2, sf) / bw;
     double tpreamble = (preamble_length + 4.25) * tsym;
@@ -36,7 +43,11 @@ double get_time_on_air(const unsigned int &payload_bytes, const unsigned int &sp
 
     double tpacket = tpreamble + tpayload;
 
+<<<<<<< HEAD
     return tpacket;
+=======
+    return tpacket; // seconds
+>>>>>>> 72fca9b (init)
 }
 
 #endif //INC_005_CCNC_DRONE_ENERGY_OPT_LORA_H
